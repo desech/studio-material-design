@@ -1,0 +1,29 @@
+{
+  "name": "studio-material-design",
+  "version": "1.0.0",
+  "description": "Material Design Desech Studio Plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:desech/studio-material-design.git"
+  },
+  "author": "Desech",
+  "license": "ISC",
+  "homepage": "https://www.desech.com",
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "material-components-web": "^9.0.0"
+  },
+  "desech": {
+    "title": "Material Design",
+    "author": "Desech",
+    "category": "designSystem",
+    "url": "https://github.com/desech/studio-material-design",
+    "autoupdate": true
+  }
+}
