@@ -1,16 +1,16 @@
-const Plugin = require(__dirname + '/lib/Plugin.js')
+const Plugin = require('./lib/Plugin.js')
 
 // executed by electron's node.js
 module.exports = {
-  getEditorCss () {
+  async getEditorCss () {
     const css = Plugin.getCssContents()
     // all classes need to start with _ss_
     return css.replace(/\.mdc-/gi, '._ss_mdc-')
   },
 
-  saveToFile (data) {
+  async saveToFile (data, lib) {
     Plugin.saveCssFile(data.folder)
     Plugin.saveJsFile(data.folder)
-    Plugin.saveComponents(data.folder)
+    await Plugin.saveComponents(data.folder)
   }
 }
