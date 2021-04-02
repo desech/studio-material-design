@@ -25,12 +25,14 @@
 ```html
 <button class="block e0mdbi01 mdc-button mdc-button--raised">
   <svg class="e0mdbi02 mdc-button__icon" viewBox="0 0 24 24">
-    {{icon}}
+    <path d="M0 0h24v24H0z" fill="none">
+    </path><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"></path>
   </svg>
   <p class="text e0mdbi03 mdc-button__label">{{text}}</p>
 </button>
 ```
 
+- When working with react you need to use variables in this format `{text}`
 - Have a look at the [Material design components](https://material.io/components?platform=web) to understand how to build them
 - We also export the material design js file to allow for certain interactions to behave correctly
 
