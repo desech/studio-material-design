@@ -11,6 +11,5 @@ module.exports = {
   async saveToFile (data, lib) {
     Plugin.saveCssFile(data.folder)
     Plugin.saveJsFile(data.folder)
-    await Plugin.saveComponents(data.folder)
   }
 }

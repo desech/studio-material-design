@@ -9,7 +9,30 @@
 
 ## Desech Studio integration
 
-- 
+- To have access to the material design css component classes, go to the Selectors section of an element and add a new Selector with a component class `mdc-button` or any other mdc css class.
+  - MDC stands for Material Design Component
+
+- A simple button can look like this:
+
+```html
+<button class="block e0mdbt01 mdc-button">
+  <p class="text e0mdbt02 mdc-button__label">Login</p>
+</button>
+```
+
+- An icon button with variables inside:
+
+```html
+<button class="block e0mdbi01 mdc-button mdc-button--raised">
+  <svg class="e0mdbi02 mdc-button__icon" viewBox="0 0 24 24">
+    {{icon}}
+  </svg>
+  <p class="text e0mdbi03 mdc-button__label">{{text}}</p>
+</button>
+```
+
+- Have a look at the [Material design components](https://material.io/components?platform=web) to understand how to build them
+- We also export the material design js file to allow for certain interactions to behave correctly
 
 ## Development
 
@@ -35,4 +58,4 @@ All Desech Studio plugins have access to the following npm libraries, because th
 
 ## Other Documentation
 
-Go to [material.io](https://material.io/develop/web/docs/getting-started) to read the documentation.
+Go to [material.io](https://material.io/components?platform=web) to read the documentation.
