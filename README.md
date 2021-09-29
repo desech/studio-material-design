@@ -48,6 +48,7 @@ npm run build
 ```
 
 - Open the `dist/material-components-web.min.css` file and delete the line `/*# sourceMappingURL=material-components-web.min.css.map*/`
+- Duplicate the `dist/material-components-web.min.css` file and name it `dist/material-components-web-editor.min.css`. Then replace `.mdc-` with `._ss_mdc-`
 
 ## Included npm packages
 
