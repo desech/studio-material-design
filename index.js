@@ -4,7 +4,7 @@ const Plugin = require('./lib/Plugin.js')
 // executed by electron's node.js
 module.exports = {
   async getEditorCssFile () {
-    return File.resolve(__dirname, 'dist/material-components-web-editor.min.css')
+    return File.resolve(__dirname, 'dist/design-system-editor.css')
   },
 
   async saveToFile (data, lib) {
