@@ -4,5 +4,5 @@ const BuildFontIcon = require('./lib/BuildFontIcon.js')
 
 Build.buildCssFiles()
 Build.buildJsFile()
-BuildFontIcon.buildIcons()
+BuildFontIcon.buildIcons() // async
 // BuildSvgIcon.buildIcons()
