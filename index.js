@@ -9,6 +9,7 @@ module.exports = {
 
   async saveToFile (data, lib) {
     Plugin.saveCssFile(data.folder)
+    await Plugin.saveIconFontFiles(data.folder)
     Plugin.saveJsFile(data.folder)
   }
 }
