@@ -44,11 +44,11 @@ If you plan on helping out with code or extend this plugin, do the following:
 
 ```sh
 npm install --force
+git clone git@github.com:google/material-design-icons.git
 npm run build
 ```
 
-- Open the `dist/material-components-web.min.css` file and delete the line `/*# sourceMappingURL=material-components-web.min.css.map*/`
-- Duplicate the `dist/material-components-web.min.css` file and name it `dist/material-components-web-editor.min.css`. Then replace `.mdc-` with `._ss_mdc-`
+We can't use the npm package `material-design-icons` because it's unmaintained
 
 ## Included npm packages
 
