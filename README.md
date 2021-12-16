@@ -44,8 +44,11 @@ If you plan on helping out with code or extend this plugin, do the following:
 
 ```sh
 npm install --force
+git clone git@github.com:google/material-design-icons.git
 npm run build
 ```
+
+The npm package for icons is unmaintained
 
 ## Included npm packages
 
