@@ -48,7 +48,7 @@ git clone git@github.com:google/material-design-icons.git
 npm run build
 ```
 
-The npm package for icons is unmaintained
+The npm package for icons is unmaintained so we need to use the github repository instead
 
 ## Included npm packages
 

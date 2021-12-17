@@ -11,5 +11,6 @@ module.exports = {
     Plugin.saveCssFile(data.folder)
     await Plugin.saveIconFontFiles(data.folder)
     Plugin.saveJsFile(data.folder)
+    Plugin.syncComponents(data.folder)
   }
 }
