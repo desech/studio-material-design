@@ -1,8 +1,8 @@
 const Build = require('./lib/Build.js')
-const BuildFontIcon = require('./lib/BuildFontIcon.js')
-// const BuildSvgIcon = require('./lib/BuildSvgIcon.js')
+const BuildSvgIcon = require('./lib/BuildSvgIcon.js')
+// const BuildFontIcon = require('./lib/BuildFontIcon.js')
 
 Build.buildCssFiles()
 Build.buildJsFile()
-BuildFontIcon.buildIcons() // async
-// BuildSvgIcon.buildIcons()
+BuildSvgIcon.buildIcons()
+// BuildFontIcon.buildIcons() // async
