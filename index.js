@@ -1,4 +1,3 @@
-const File = require('./lib/File.js')
 const Plugin = require('./lib/Plugin.js')
 
 // executed by electron's node.js
