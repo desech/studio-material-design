@@ -1,15 +1,18 @@
 const Plugin = require('./lib/Plugin.js')
 
-// executed by electron's node.js
+// this is executed by electron's node.js, so we can't use npm packages,
+// only the ones available in Desech (check readme file)
 module.exports = {
-  async getEditorCssFile () {
-    return File.resolve(__dirname, 'dist/design-system-editor.css')
+  enablePlugin (lib) {
+    this.uninstallPlugin(lib)
+    // sync files
   },
 
-  async saveToFile (data, lib) {
-    Plugin.saveCssFile(data.folder)
-    await Plugin.saveIconFontFiles(data.folder)
-    Plugin.saveJsFile(data.folder)
-    Plugin.syncComponents(data.folder)
+  updatePlugin (lib) {
+    this.installPlugin(lib)
+  },
+
+  uninstallPlugin (lib) {
+    // remove files
   }
 }
