@@ -1,4 +1,4 @@
 const Build = require('./lib/Build.js')
 
-Build.buildCssFiles()
-Build.buildJsFile()
+Build.copyComponents()
+Build.buildCssFile()
