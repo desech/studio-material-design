@@ -11,29 +11,7 @@
 
 ## Desech Studio integration
 
-- To have access to the material design css component classes, go to the Selectors section of an element and add a new Selector with a component class `mdc-button` or any other mdc css class.
-  - MDC stands for Material Design Component
-
-- A simple button can look like this:
-
-```html
-<button class="block e0mdbt01 mdc-button">
-  <p class="text e0mdbt02 mdc-button-label">Login</p>
-</button>
-```
-
-- An icon button with variables inside:
-
-```html
-<button class="block e0mdbi01 mdc-button mdc-button-raised">
-  <svg class="e0mdbi02 mdc-button-icon" viewBox="0 0 24 24">
-    <path d="M0 0h24v24H0z" fill="none">
-    </path><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"></path>
-  </svg>
-  <p class="text e0mdbi03 mdc-button-label">{{text}}</p>
-</button>
-```
-
+- Material design uses Roboto, so make sure you install the Roboto font in your Desech Studio pr0ject
 - When working with react you need to use variables in this format `{text}`
 - Have a look at the [Material design components](https://material.io/components?platform=web) to understand how to build them
 - We also export the material design js file to allow for certain interactions to behave correctly
@@ -43,12 +21,10 @@
 If you plan on helping out with code or extend this plugin, do the following:
 
 ```sh
+git clone git@github.com:desech/material-design-project.git
 npm install --force
-git clone git@github.com:google/material-design-icons.git
 npm run build
 ```
-
-The npm package for icons is unmaintained so we need to use the github repository instead
 
 ## Included npm packages
 

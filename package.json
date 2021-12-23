@@ -22,9 +22,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
-    "eslint-plugin-standard": "^4.1.0",
-    "material-components-web": "^13.0.0",
-    "node-fetch": "2.6.2"
+    "eslint-plugin-standard": "^4.1.0"
   },
   "desech": {
     "title": "Material Design",
