@@ -11,10 +11,8 @@
 
 ## Desech Studio integration
 
-- Material design uses Roboto, so make sure you install the Roboto font in your Desech Studio pr0ject
-- When working with react you need to use variables in this format `{text}`
-- Have a look at the [Material design components](https://material.io/components?platform=web) to understand how to build them
-- We also export the material design js file to allow for certain interactions to behave correctly
+- Material design uses Roboto, so make sure you install the Roboto font in your Desech Studio project
+- You can now see new components added to your component folder in the `design-system` folder
 
 ## Development
 
