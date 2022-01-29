@@ -4,7 +4,8 @@ const path = require('path')
 // only the ones available in Desech (check readme file)
 module.exports = {
   syncOpenProject (data, lib) {
-    const src = path.resolve(__dirname, 'dist')
-    lib.fse.copySync(src, data.folder)
+    // disable for now, because it's not finished
+    // const src = path.resolve(__dirname, 'dist')
+    // lib.fse.copySync(src, data.folder)
   }
 }
