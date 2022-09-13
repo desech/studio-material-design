@@ -1,12 +1,6 @@
 # IN DEVELOPMENT. Don't use this because it's not finished.
-# IN DEVELOPMENT. Don't use this because it's not finished.
-# IN DEVELOPMENT. Don't use this because it's not finished.
-# IN DEVELOPMENT. Don't use this because it's not finished.
-# IN DEVELOPMENT. Don't use this because it's not finished.
 
-# Material Design plugin for [Desech Studio](https://www.desech.com/)
-
-[www.desech.com](https://www.desech.com/)
+# Material Design plugin for Desech Studio
 
 ## Install
 
@@ -44,7 +38,3 @@ All Desech Studio plugins have access to the following npm libraries, because th
 ## Other Documentation
 
 Go to [material.io](https://material.io/components?platform=web) to read the documentation.
-
-## Desech Studio website
-
- - [www.desech.com](https://www.desech.com/)
